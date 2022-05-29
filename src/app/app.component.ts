@@ -9,6 +9,7 @@ export class AppComponent  {
   name = 'Angular' + VERSION.major;
 
   constructor(){
+    console.log(this.name);
     const numbers: string[]=['one', 'two', 'three'];
     numbers.forEach(number => console.log(number));
   }
